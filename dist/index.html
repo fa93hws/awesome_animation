@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link 
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+  integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+  crossorigin="anonymous"
+>
+<title>Awesome animation</title>
+</head>
+
+<body>
+  <div
+    id = 'carouselContainer'
+    class = 'carousel__outer-container'
+  >
+    <div
+      id = 'carouselInnerContainer'
+      class = 'carousel__inner-container'
+    >
+      <!-- left -->
+      <section class = 'carousel__inline-container--left carousel__inline-container'>
+        <div class ='carousel__menu-wrapper'>
+          <i class="fas fa-bars"></i>
+        </div>
+        <section class = 'carousel__side-text-wrapper'>
+          <div class = 'carousel__side-text-group'>
+            <p class = 'carousel__side-text'>
+              some text
+            </p>
+            <p class = 'carousel__side-text'>
+              some other text
+            </p>
+          </div>
+          <div class = 'carousel__side-text-group'>
+            <p class = 'carousel__side-text'>
+              some other text 2
+            </p>
+            <p class = 'carousel__side-text'>
+              some other text 3
+            </p>
+          </div>
+        </section>
+      </section>
+      <!-- mid -->
+      <section class = 'carousel__inline-container--mid carousel__inline-container'>
+        <div class = 'carousel__mid-button-wrapper'>
+        <!-- there is a button here  -->
+        </div>
+        <p
+          id = 'carouselCenterText'
+          class = 'carousel__mid-text'
+        />
+        <div class = 'carousel__mid-bottom-div carousel__mid-bottom-div--fat'>
+          <article class = 'carousel_bottom-article'>
+            <p
+              id = 'carouselBottomAbstract'
+              class = 'carousel__bottom-abstract'
+            />
+            <div class = 'carousel__bottom-title-wrapper'>
+              <h2
+                id = 'carouselBottomColorlessTitle'
+                class = 'carousel__bottom-title carousel__bottom-title--colorless'
+              />
+              <h2
+                id = 'carouselBottomColoredTitle'
+                class = 'carousel__bottom-title carousel__bottom-title--colored'
+              />
+            </div>
+          </article>
+        </div>
+        <div class = 'carousel__mid-bottom-div carousel__mid-bottom-div--slim'>
+          <div
+            id = 'carouselNextButton'
+            class = 'carousel__next-button-wrapper show'
+          >
+            <a class = 'carousel__next-button'>
+              ❯
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- right carousel -->
+      <div
+        id = 'carouselFrame'
+        class = 'carousel__inline-container--right carousel__inline-container'
+      >
+        <ul
+          id = 'carouselList'
+          class = 'carousel__list'
+        >
+        </ul>
+        <div class = 'carousel__icon-group'>
+            <i class="fas fa-search carousel__icon"></i>
+            <div class="vl"></div>
+            <i class="fas fa-map-marker-alt carousel__icon"></i>
+          </div>
+      </div>
+      <!-- end of right carousel -->
+    </div>
+    <!-- end of inner container -->
+  </div>
+</body>
+
+<script src="bundle.js"></script>
+</html>
